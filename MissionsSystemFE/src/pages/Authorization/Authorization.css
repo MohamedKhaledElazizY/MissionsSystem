@@ -1,0 +1,11 @@
+.auth__container{
+    font-size: large;
+    border: 1px solid var(--surface-500);
+    border-radius: 1rem;
+    padding: 15px;
+    background: rgba(248, 180, 78, 0.212);
+    width: 100%;
+}
+.btn_area button{
+    width: fit-content;
+}

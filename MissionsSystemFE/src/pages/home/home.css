@@ -1,0 +1,10 @@
+/* .home__container img {
+    margin-top: 15%;
+    margin-right: 40%;
+} */
+
+.home__container img {
+    position: absolute;
+    top: calc(50% - 3rem);
+    left: calc(50% - 3rem);
+}

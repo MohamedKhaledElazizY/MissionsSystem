@@ -1,0 +1,9 @@
+.register__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding-top: 30px;
+}

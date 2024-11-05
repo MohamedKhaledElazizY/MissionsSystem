@@ -1,0 +1,54 @@
+.missiommember_container{
+    display: grid;
+    grid-template-columns: 18% 5% 80%;
+    /* gap: 5rem; */
+    padding-top: 2rem;
+    padding-right: 1rem;
+}
+
+.input_area div{
+    padding: 2px;
+}
+
+.drop__down{
+    margin-bottom: 2rem;
+}
+
+
+.save__btn{
+    margin-top: 5px;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+    text-align: right;
+}
+
+.input_area{
+    max-width: fit-content;
+}
+
+.table_area{
+    max-width: fit-content;
+}
+
+/* .delete_btn {
+    background: rgba(206, 162, 95, 0.164);
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding-top: 1rem;
+}
+.delete_btn button{
+    width: 7rem;
+    margin-bottom: 1rem;
+    margin-right: 88%;
+    background: rgb(255, 63, 63);
+}
+
+.delete_btn button:hover{
+    background: rgba(102, 25, 25, 0.897);
+    color: white;
+    border-color: transparent;
+} */
+
+
+

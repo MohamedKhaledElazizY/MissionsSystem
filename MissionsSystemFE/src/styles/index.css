@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Tajwal;
+    src: url(../assets/fonts/Tajawal-Bold.ttf);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-background: #faf0e6;
+    --color-nav1: #fff8dccb;
+    --color-nav2: #daa520;
+    --color-nav3: #d2b48c;
+    --color-btns: #c99002;
+    /* --color-btns: #d2691e; */
+
+    --color-table: #fff8dc;
+    --color-selected-row: #808080;
+
+    --color-black: #000000;
+    --color-white: #ffffff;
+
+    --color-row-finished: #274e13;
+    --color-row-holded: #7b0e0e;
+    --color-row-running: #ffffff;
+    --color-row-personal: #192970;
+
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+
+    --transition: all 500ms ease;
+}
+
+body{
+    height: 100%;
+    /* font-family: 'Tajawal'; */
+    color: var(--color-black);
+    line-height: 1.7;
+    overflow-x: hidden;
+    background: var(--color-background);
+}
+.btn {
+    color: var(--color-black);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.9rem 2rem;
+    background: var(--color-btns);
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    transition: var(--transition);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: rgb(250, 222, 179);
+}
+
+.direction__ltr {
+    direction: ltr;
+}
+
+
+.validation__text {
+    color: rgb(226, 53, 53);
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+/* label,
+span,
+p,
+a,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+td {
+    font-family: 'Tajawal';
+} */

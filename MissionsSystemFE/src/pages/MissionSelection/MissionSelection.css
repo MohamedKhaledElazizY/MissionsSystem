@@ -1,0 +1,19 @@
+.personalreview__row {
+    background-color: rgb(0, 0, 255) !important;
+    color: white !important;
+}
+
+.posponed__row {
+    background-color: rgb(139, 0, 0) !important;
+    color: white !important;
+}
+
+.ended__row {
+    background-color: rgb(46, 139, 87) !important;
+    color: white !important;
+}
+
+.running__row {
+    background-color: rgb(255, 255, 255) !important;
+    color: black !important;
+}
